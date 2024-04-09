@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    background-image: linear-gradient(to right, white, black);
+    height: 100vh;
+}
+
+a{
+    position: absolute;
+    bottom: 10px;
+}

@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+  background-image: linear-gradient(to right, white, black);
+  height: 100vh;
+}
+
+.quad {
+background-color: darkred;
+width: 200px;
+height: 200px;
+padding: 10;
+margin: 20px;
+border: 1px solid black;
+box-shadow: 5px, 5px, 5px black;
+
+}
+.quad:hover{
+  background: rgba(0.0.0.0);
+  color:darkred;
+  box-shadow: inset 0 0 0 3px darkred;
+}
+
+a{
+  position: absolute;
+  bottom: 10px;
+}
