@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    background-image: linear-gradient(to right, white, black);
+    height: 100vh;
+}
+
+.quad {
+  background-color: darkred;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  box-shadow: 5px, 5px, 5px black;
+  
+}
+
+a{
+  position: absolute;
+  bottom: 10px;
+}

@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, white, black);
+    height: 100vh;
+}
+
+.quadrado{
+    display: flex;
+    justify-content: space-between;
+}
+
+.quad1{
+  background-color: darkred;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  box-shadow: 5px, 5px, 5px black;
+  animation: mover1 2s infinite 0s;
+}
+
+.quad2{
+    background-color: darkred;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    box-shadow: 5px, 5px, 5px black;
+    animation: mover1 2s infinite 3s;
+}
+
+.quad3{
+    background-color: darkred;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    box-shadow: 5px, 5px, 5px black;
+    animation: mover1 2s infinite 6s;
+}  
+
+a{
+  position: absolute;
+  bottom: 10px;
+}
+
+@keyframes mover1{
+    0%{
+        transform: translateY(0%);
+    }
+    25%{
+        transform: translateY(100%);
+    }
+    50%{
+        transform: translateY(0%);
+    }
+    75%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+
+
