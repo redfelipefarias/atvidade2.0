@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    background-image: linear-gradient(to right, white, black);
+    height: 100vh;
+  }
+
+  .circulo{
+    background: rgb(0, 0, 0);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+  .circulo:hover{
+    animation: aumentar 2s ease infinite;
+  }
+
+  @keyframes aumentar {
+    0%{
+        transform: scale (1);
+        background-color: rgb(0, 0, 0);
+    }
+    100%{
+        transform: scale(2);
+        background-color: rgb(255,0,0);
+    }
+  }
+
+  a{
+    position: absolute;
+    bottom: 10px;
+}
